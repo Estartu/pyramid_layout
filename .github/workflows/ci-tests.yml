@@ -14,13 +14,10 @@ jobs:
         strategy:
             matrix:
                 py:
-                    - "2.7"
-                    - "3.6"
-                    - "3.7"
-                    - "3.8"
-                    - "3.9"
-                    - "pypy-2.7"
-                    - "pypy3"
+                    - "3.10"
+                    - "3.11"
+                    - "3.12"
+                    - "3.13"
                 os:
                     - "ubuntu-latest"
                 architecture:
